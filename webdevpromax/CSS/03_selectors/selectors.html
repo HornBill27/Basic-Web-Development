@@ -35,14 +35,39 @@
       }
 
       /* 6. Descendant Selector */
+      article p{
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 10px;
+        font-style: italic;
+      }
 
       /* 7. Child Selector */
+      div > p{
+        background-color: #880404;
+      }
 
       /* 8. Adjacent Sibling Selector */
+      /* h1 + p - all paragraphs that are adjacent to h1  */
+      h1 + p{
+        font-weight: bold;
+      }
 
       /* 9. General Sibling Selector */
+      /* h2 ~ p - all the paragraphs that are general siblings of h2. */
+      h2 ~ p{
+        color: #860303;
+      }
+
 
       /* 10. Pseudo-class Selector */
+      a:hover{
+        background-color: #14a50e;
+        text-decoration: none;
+        color: #1a1a1a;
+        padding: 5px;
+        margin: 4px;
+      }
 
       /* 11. Pseudo-element Selector */
 
@@ -64,6 +89,7 @@
     </p>
 
     <input type="text" placeholder="Enter text here" />
+    
 
     <article>
       <p>
