@@ -1,0 +1,27 @@
+body, html{
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+.logo{
+    /* border: solid red 1px; */
+    width: 150px;
+    /* height: px; */
+    object-fit: contain;
+}
