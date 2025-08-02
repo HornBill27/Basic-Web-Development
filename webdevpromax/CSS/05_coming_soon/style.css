@@ -20,7 +20,7 @@ body, html{
     max-width: 400px;
 }
 .logo{
-    /* border: solid red 1px; testing 1*/
+    /* border: solid red 1px; */
     width: 150px;
     /* height: px; */
     object-fit: contain;
