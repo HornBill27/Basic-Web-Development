@@ -20,8 +20,38 @@ body, html{
     max-width: 400px;
 }
 .logo{
-    /* border: solid red 1px; */
+    /* border: solid red 1px; testing 1*/
     width: 150px;
     /* height: px; */
     object-fit: contain;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+    padding: 0.5rem;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
